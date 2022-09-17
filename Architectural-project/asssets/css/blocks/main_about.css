@@ -1,0 +1,84 @@
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.about-content__button {
+    background-color: #ffff;
+}
+
+.about-content__button:hover {
+    background-color: rgba(243, 243, 237, 0.565);
+    color: #000000;
+}
+
+
+.about-pic {
+    width: 100%;
+}
+
+.about-content {
+    z-index: 10;
+}
+
+.about-bg {
+    width: 100%;
+    max-height: 435px;
+    margin: 0;
+    background-color: #FBFBFB;
+    background-position: right 15px bottom 40px;
+    margin-right: 0;
+    margin-left: 0;
+}
+.gallery-slider{
+    padding:  30%;
+}
+
+@media (max-width: 767px) {
+    .about-content__img {
+        display: none;
+    }
+
+    .about-content__title {
+        padding-left: 15%;
+        font-size: 50px;
+        padding-top: 5%;
+    }
+
+    .about-content__text {
+        padding-left: 15%;
+        font-size: 15px;
+    }
+
+    .about-content__button {
+        margin-left: 15%;
+        margin-bottom: 5%;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .about-content__img {
+        display: none;
+    }
+
+    .about-content__text {
+        padding-right: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .images-row {
+        padding-top: 15%;
+    }
+
+    .about-content__body {
+        margin-top: 0;
+    }
+}

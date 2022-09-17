@@ -1,0 +1,118 @@
+.container__gallery {
+    margin-top: 63px;
+    margin-bottom: 30px;
+}
+
+.row__gallery {
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.gallery__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+}
+
+.gallery__subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color: #333333;
+    padding-bottom: 30px;
+}
+
+.gallery__pictures {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-bottom: 60px;
+}
+
+.carousel {
+    margin-bottom: 100px;
+}
+
+.container__navigation {
+    display: flex;
+    margin-bottom: 120px;
+    align-items: center;
+}
+
+.page__number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 141.88px;
+    height: 52px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #BDBDBD;
+}
+
+.page__number-from {
+    display: flex;
+    flex-direction: column;
+    color: #333333;
+}
+
+.page__number-item {
+    margin: 0;
+}
+
+.page__number-slash {
+    background-color: #E0E0E0;
+    width: 44px;
+    height: 0px;
+    border: 2px solid #E0E0E0;
+    transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, 0);
+}
+
+.control {
+    margin-left: 29px;
+    width: 129px;
+}
+
+.control__item_active:hover {
+    background-color: #ddd;
+}
+
+.control__item {
+    border: 1px solid rgba(221, 221, 221, 0.628);
+    padding: 9px 11px 11px 11px;
+    margin-right: 10px;
+}
+.gallery-slider{
+    padding: 10% 30% 5% 5% ;
+ }
+
+@media (min-width: 1200px) {
+    .carousel {
+        display: none;
+    }
+    .gallery-slider{
+        padding: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        width: 100%;
+    }
+
+    .gallery__pictures {
+        display: none;
+    }
+
+    .container__navigation {
+        display: none;
+    }
+}

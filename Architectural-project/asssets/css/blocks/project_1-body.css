@@ -1,0 +1,31 @@
+.title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 4rem;
+  line-height: 64px;
+  color: #BDBDBD;
+}
+
+.subtitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 64px;
+  color: #333333;
+}
+
+.section-sample-project__picture {
+  width: 100%;
+}
+
+.section-sample-project__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 25px;
+  max-height: 100%;
+  color: #000000;
+}
